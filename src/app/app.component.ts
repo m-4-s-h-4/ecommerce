@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppService } from './app.service';
+// import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -9,20 +9,20 @@ import { AppService } from './app.service';
 export class AppComponent {
   title = 'ecommerce';
 
-  products: any = [];
+  // products: any = [];
 
-  constructor(private appService: AppService) {
+  // constructor(private appService: AppService) {
 
-  }
+  // }
 
-  ngOnInit() {
-    this.getProducts();
-  }
+  // ngOnInit() {
+  //   this.getProducts();
+  // }
 
-  getProducts() {
-    const data = this.appService.getProducts();
-    console.log(data);
-    this.products = data;
-  }
+  // getProducts() {
+  //   const data = this.appService.getProducts();
+  //   console.log(data);
+  //   this.products = data;
+  // }
 
 }

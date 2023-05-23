@@ -1,0 +1,28 @@
+.product-grid {
+    margin-left: 3rem;
+    display: grid;
+    margin: 1rem 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    width: 50%;
+}
+
+.product-card {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 30px;
+}
+
+.product-card img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.product-card h2,
+.product-card p {
+    margin: 0;
+    width: 90%;
+}

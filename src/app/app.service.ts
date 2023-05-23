@@ -1,15 +1,15 @@
-import { Injectable } from '@angular/core';
-import data from '../assets/data.json';
+// import { Injectable } from '@angular/core';
+// import data from '../assets/data.json';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class AppService {
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class AppService {
 
-  constructor() { }
+//   constructor() { }
 
-  getProducts() {
-    console.log(data);
-    return data;
-  }
-}
+//   getProducts() {
+//     console.log(data);
+//     return data;
+//   }
+// }

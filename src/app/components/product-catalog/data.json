@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Nike Men's Air Zoom Pegasus 37 Running Shoes",
+        "price": 109.95,
+        "description": "Experience responsive cushioning and lightweight support during your runs.",
+        "category": "men's shoes",
+        "image": "https://www.pngall.com/wp-content/uploads/13/Nike-Shoes-Air-Max-PNG-Images.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Nike Men's Air Max 270 React Sneakers",
+        "price": 22.3,
+        "description": "Get exceptional cushioning and bold style with these trendy sneakers.",
+        "category": "men's shoes.",
+        "image": "https://www.pngall.com/wp-content/uploads/13/Nike-Shoes-PNG-File.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Nike Women's Free RN Flyknit 3.0 Running Shoes",
+        "price": 55.99,
+        "description": "Experience the ultimate lightweight and flexible running shoes.",
+        "category": "women's shoes",
+        "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1679571918-110390-426-m-hyperion-max-mens-fastest-running-shoe.png?crop=1xw:1xh;center,top&resize=980:*",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Nike Men's Air Jordan 1 Mid Basketball Shoes",
+        "price": 15.99,
+        "description": "TChannel your inner athlete with these iconic basketball shoes.",
+        "category": "men's shoes",
+        "image": "https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw5c37d946/nk/48a/c/3/6/8/f/48ac368f_0d69_4b57_ad8d_4ebaa8e2eb74.png?sw=520&sh=520&sm=fit",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "Nike Men's Air Max 270 React Sneakers",
+        "price": 695,
+        "description": "Get exceptional cushioning and bold style with these trendy sneakers.",
+        "category": "men's shoes",
+        "image": "https://www.brooksrunning.com/dw/image/v2/BGPF_PRD/on/demandware.static/-/Sites-brooks-master-catalog/default/dw5d574cea/original/110339/110339-075-m-hyperion-tempo-mens-fast-running-and-training-shoe.png?sw=425&sh=425&sm=fit",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Nike Women's Revolution 5 Running Shoes ",
+        "price": 168,
+        "description": "Enjoy lightweight comfort and breathable support for your daily runs.",
+        "category": "women's shoes",
+        "image": "https://pngimg.com/d/running_shoes_PNG5785.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    }
+]
