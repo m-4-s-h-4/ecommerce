@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecommerce';
+
+  constructor(private appService: AppService) {
+
+
+  }
+
+  ngOnInit() {
+    this.getProducts();
+  }
+
+  getProducts() {
+    const data = this.appService.getProducts();
+    console.log(data);
+  }
+
 }
