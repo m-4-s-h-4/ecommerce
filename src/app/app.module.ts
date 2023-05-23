@@ -7,13 +7,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductsCartComponent } from './components/products-cart/products-cart.component';
 import { ProductCatalogItemComponent } from './components/product-catalog-item/product-catalog-item.component';
 import { AppService } from './app.service';
+import { ProductCatalogComponent } from './components/product-catalog/product-catalog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProductsCartComponent,
-    ProductCatalogItemComponent
+    ProductCatalogItemComponent,
+    ProductCatalogComponent
   ],
   imports: [
     BrowserModule,

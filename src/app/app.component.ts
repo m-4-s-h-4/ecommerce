@@ -9,8 +9,9 @@ import { AppService } from './app.service';
 export class AppComponent {
   title = 'ecommerce';
 
-  constructor(private appService: AppService) {
+  products: any = [];
 
+  constructor(private appService: AppService) {
 
   }
 
@@ -21,6 +22,7 @@ export class AppComponent {
   getProducts() {
     const data = this.appService.getProducts();
     console.log(data);
+    this.products = data;
   }
 
 }
