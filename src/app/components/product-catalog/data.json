@@ -5,7 +5,7 @@
         "price": 109.95,
         "description": "Experience responsive cushioning and lightweight support during your runs.",
         "category": "men's shoes",
-        "image": "https://www.pngall.com/wp-content/uploads/13/Nike-Shoes-Air-Max-PNG-Images.png",
+        "image": "https://static.nike.com/a/images/t_default/92511553-5c5c-4da6-96da-96a51dc701ed/air-force-1-07-mid-womens-shoes-2NP34w.png",
         "rating": {
             "rate": 3.9,
             "count": 120
@@ -39,7 +39,7 @@
         "id": 4,
         "title": "Nike Men's Air Jordan 1 Mid Basketball Shoes",
         "price": 15.99,
-        "description": "TChannel your inner athlete with these iconic basketball shoes.",
+        "description": "Channel your inner athlete with these iconic basketball shoes.",
         "category": "men's shoes",
         "image": "https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw5c37d946/nk/48a/c/3/6/8/f/48ac368f_0d69_4b57_ad8d_4ebaa8e2eb74.png?sw=520&sh=520&sm=fit",
         "rating": {
@@ -65,7 +65,7 @@
         "price": 168,
         "description": "Enjoy lightweight comfort and breathable support for your daily runs.",
         "category": "women's shoes",
-        "image": "https://pngimg.com/d/running_shoes_PNG5785.png",
+        "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1646394313-zoomx-streakfly-road-racing-shoes-lrCMPz.png?crop=1.00xw:0.534xh;0,0.315xh&resize=980:*",
         "rating": {
             "rate": 3.9,
             "count": 70
