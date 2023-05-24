@@ -10,7 +10,12 @@
     margin: 1rem 2rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    width: 50%;
+}
+
+@media (max-width: 830px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .product-card {

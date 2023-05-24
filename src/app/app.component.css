@@ -1,0 +1,18 @@
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .product-catalog {
+      flex: 1;
+  }
+
+  .products-cart {
+      flex: 1;
+  }
+
+  @media (max-width: 600px) {
+      .container {
+          flex-direction: column;
+      }
+  }

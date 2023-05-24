@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import data from './data.json';
 
-interface Product {
+export interface Product {
   id: number;
   title: string;
   price: number;
@@ -20,6 +20,9 @@ interface Product {
   styleUrls: ['./product-catalog.component.css']
 })
 export class ProductCatalogComponent implements OnInit {
+  addToCart(product: Product) {
+    console.log(product)
+  }
   constructor() { }
 
   products: Product[] = data;
