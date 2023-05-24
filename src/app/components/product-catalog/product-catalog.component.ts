@@ -19,13 +19,18 @@ export interface Product {
   templateUrl: './product-catalog.component.html',
   styleUrls: ['./product-catalog.component.css']
 })
-export class ProductCatalogComponent implements OnInit {
-  addToCart(product: Product) {
-    console.log(product)
-  }
-  constructor() { }
 
+export class ProductCatalogComponent implements OnInit {
+  cart: Product[] = [];
   products: Product[] = data;
 
+  constructor() { }
+
   ngOnInit(): void { }
+
+  addToCart(product: Product) {
+    this.cart.push(product);
+    console.log('Product added to cart:', product);
+    console.log('Cart:', this.cart);
+  }
 }
