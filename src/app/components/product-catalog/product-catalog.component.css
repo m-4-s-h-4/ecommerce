@@ -23,7 +23,6 @@
 }
 
 .product-card:hover {
-    transform: scale(1.02);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: rgba(250, 250, 250, 0.826);
 }
@@ -32,6 +31,10 @@
     width: 20rem;
     height: 20rem;
     object-fit: contain;
+}
+
+.product-card img:hover {
+    transform: scale(1.1);
 }
 
 .product-card .description {
@@ -58,10 +61,4 @@
 
 .product-card button:hover {
     background-color: #d03b00;
-}
-
-@media (max-width: 830px) {
-    .product-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
