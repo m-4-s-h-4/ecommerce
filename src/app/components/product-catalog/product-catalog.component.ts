@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import data from './data.json';
+import { CartService } from '../../cart.service';
 
 export interface Product {
   id: number;
@@ -21,16 +22,15 @@ export interface Product {
 })
 
 export class ProductCatalogComponent implements OnInit {
-  cart: Product[] = [];
   products: Product[] = data;
 
-  constructor() { }
+  constructor(private cartService: CartService) { }
 
   ngOnInit(): void { }
 
   addToCart(product: Product) {
-    this.cart.push(product);
+    this.cartService.addToCart(product);
     console.log('Product added to cart:', product);
-    console.log('Cart:', this.cart);
+    console.log('Cart:', this.cartService.getCartItems());
   }
 }

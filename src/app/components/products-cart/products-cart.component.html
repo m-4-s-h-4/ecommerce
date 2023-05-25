@@ -9,20 +9,19 @@
                     <th>Quantity</th>
                     <th>Price</th>
                     <th>Action</th>
-                    <th>Total</th>
                 </tr>
             </thead>
-            <!-- <tbody>
-                <tr>
-                    <td>Iphone</td>
-                    <td>Image</td>
-                    <th>2
-                    <td>100
+            <tbody>
+                <tr *ngFor="let product of cart">
+                    <td>{{ product.title }}</td>
+                    <td><img [src]="product.image" alt="{{ product.title }}"></td>
+                    <td>number</td>
+                    <td>£{{ product.price }}</td>
                     <td>
-                        <button class="btn btn-danger"> x </button>
-                    <td>100
+                        <button (click)="removeFromCart(product)">Remove</button>
                     </td>
-            </tbody> -->
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>
