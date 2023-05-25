@@ -6,6 +6,7 @@
                 <tr>
                     <th>Title</th>
                     <th>Image</th>
+                    <!-- futute version should increase a value once product added  -->
                     <th>Quantity</th>
                     <th>Price</th>
                     <th>Action</th>
@@ -14,14 +15,15 @@
             <tbody>
                 <tr *ngFor="let product of cart">
                     <td>{{ product.title }}</td>
-                    <td><img [src]="product.image" alt="{{ product.title }}"></td>
+                    <td><img [src]="product.image"></td>
                     <td>number</td>
-                    <td>£{{ product.price }}</td>
+                    <td>{{ product.price |currency: 'GBP'}}</td>
                     <td>
                         <button (click)="removeFromCart(product)">Remove</button>
                     </td>
                 </tr>
             </tbody>
         </table>
+        <h1>Total: {{ calculateTotal() }}</h1>
     </div>
 </div>
