@@ -16,7 +16,7 @@
     overflow-y: scroll;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1475px) {
     .container {
         flex-direction: column;
     }
